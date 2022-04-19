@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    background-image: linear-gradient(#f44336, #730228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selector{
+    width: 350px;
+}
+
+
+#selectField{
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#selectField img{
+    width: 12px;
+}
+
+#list{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.options{
+    width: 100%;
+    list-style: none;
+    padding: 15px;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.options img{
+    width: 25px;
+}
