@@ -33,6 +33,7 @@ main{
 
 #selectField img{
     width: 12px;
+    transition: transform 0.5s;
 }
 
 #list{
@@ -55,4 +56,17 @@ main{
 
 .options img{
     width: 25px;
+}
+
+.options:hover{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+.hide{
+    visibility: hidden;
+}
+
+.rotate{
+    transform: rotate(180deg);
 }
